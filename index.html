@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html>
-	{{ partial "header.html" . }}
+	<head>
+	<meta name="generator" content="Hugo 0.89.4" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Margarita Boyarskaya | Home </title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta property="og:image" content=""/>
+	<link rel="alternate" type="application/rss+xml" href="https://margaritaboyarskaya.github.io/index.xml" title="Margarita Boyarskaya" />
+	<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://margaritaboyarskaya.github.io/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content=""/>
+
+	
+        <link href="https://margaritaboyarskaya.github.io/css/fonts.b685ac6f654695232de7b82a9143a46f9e049c8e3af3a21d9737b01f4be211d1.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://margaritaboyarskaya.github.io/css/main.c28adfa3dc0dd41fe582a3838c28ec5cc9fcec42954fbe61e3d6a17bab8fe9bf.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://margaritaboyarskaya.github.io/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css" media="(prefers-color-scheme: dark)"  />
+	
+	
+	
+</head>
+
 	<body>
 		<div class="content">
-			{{ partial "head.html" . }}
+			<header>
+	<div class="main">
+		<a href="https://margaritaboyarskaya.github.io/">Margarita Boyarskaya</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="CV.pdf">CV</a>
+		
+		
+	</nav>
+</header>
+
 			
 		<section id="about">
 	      <div class="container-fluid avatar text-center">
-	        <img class="rounded-circle" style="border: 3px solid white" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Image of {{ .Site.Params.author }}">
+	        <img class="rounded-circle" style="border: 3px solid white" src="https://margaritaboyarskaya.github.io/img/profile.png" alt="Image of ">
 	      </div>
 	      <div class="container">
 	        <div class="jumbotron">
 	          <div class="central-box">
-	            <!-- <h2><strong>{{ .Site.Params.author }}</strong></h2> -->
+	            
 	            <h2>I am a PhD Candidate at NYU Stern Technology, Operations, and Statistics department.</h2>
 	            <h2>&ltAI fairness, causality&gt &#x222A &ltcrowdsourcing&gt .  </h2>
-	            <h2>mboyarsk <@> stern <*> nyu <*> edu </h2>
-	            <!-- <h2>For further information have a look at my
-	              <a href="{{ .Site.BaseURL }}posts/">posts</a>,
-	              <a href="{{ .Site.BaseURL }}projects/">projects</a> or
-	              <a href="{{ .Site.BaseURL }}publications/">publications</a>.
-	            </h2> -->
+	            <h2>mboyarsk &lt;@> stern &lt;*> nyu &lt;*> edu </h2>
+	            
 	          </div>
 	        </div>
 	      </div>
 	    </section>
-			<!--<main class="single">
-				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<p>{{ .Site.Params.Subtitle | markdownify }}</p>
-					{{- end -}}
-				</div>
-				<!-- {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
-				<section class="list-item">
-					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-					<br><div class="description">
-						{{ if isset .Params "description" }}
-						{{ .Description }}
-						{{ else }}
-						{{ .Summary }}&hellip;
-						{{ end }}
-					</div>
-					<a href="{{ .RelPermalink }}">Read more ⟶</a>
-				</section> 
-				{{ end }}
-				{{ template "partials/paginator.html" . }}-->
+			
 			</main>
-			{{ partial "footer.html" . }}
+			<footer>
+<hr>
+	2021  © Athul |  <a href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+
 		</div>
 		
 	</body>
